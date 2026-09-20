@@ -1788,6 +1788,225 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Power_Protection:USBLC6-2SC6"
 			(pin_names
 				(hide yes)
@@ -4198,6 +4417,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VBUS"
 			(power global)
 			(pin_numbers
@@ -4423,6 +4757,12 @@
 		(uuid "08212fc6-f272-4f28-946d-58c983f67fe8")
 	)
 	(junction
+		(at 135.89 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09c0ec58-07aa-4636-8307-f78935bd07ab")
+	)
+	(junction
 		(at 219.71 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4441,6 +4781,12 @@
 		(uuid "350bb85c-a502-4c67-ad0d-35437a5a3f58")
 	)
 	(junction
+		(at 35.56 237.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38cde2ac-b8be-49e2-80dd-056e61b19e2b")
+	)
+	(junction
 		(at 354.33 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4451,6 +4797,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b308726-863c-4672-8a81-8f9398d1a022")
+	)
+	(junction
+		(at 60.96 237.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40e9ec74-2ffe-4522-9c7b-cba1bd4827b2")
 	)
 	(junction
 		(at 234.95 139.7)
@@ -4501,6 +4853,12 @@
 		(uuid "8cc46578-4278-47fb-bc05-7b8ec1bc5436")
 	)
 	(junction
+		(at 142.24 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96f0c4e8-66cc-4fd4-8bd3-c222b1c6ebb9")
+	)
+	(junction
 		(at 322.58 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4513,6 +4871,12 @@
 		(uuid "9a17c940-a80d-402d-b8df-d3ebd2c0f74d")
 	)
 	(junction
+		(at 212.09 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e81b4c6-15ea-44ec-9adb-2a810e83b670")
+	)
+	(junction
 		(at 311.15 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4523,6 +4887,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac3e45ec-4b0a-4784-b6ba-4588b20b9549")
+	)
+	(junction
+		(at 86.36 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3d016cb-a691-41d7-b614-65c2337ef2f7")
 	)
 	(junction
 		(at 104.14 99.06)
@@ -4549,10 +4919,10 @@
 		(uuid "c74082b6-0895-451b-a84f-be88241d7cdf")
 	)
 	(junction
-		(at 135.89 77.47)
+		(at 85.09 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cab91585-9dda-4ddf-96d0-fc974f2da16a")
+		(uuid "d4852695-b4c3-485d-9d7c-8db3e83cfca4")
 	)
 	(junction
 		(at 345.44 82.55)
@@ -4734,6 +5104,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 229.87) (xy 35.56 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "035de0b9-7c36-4457-89f3-d58bae72783c")
+	)
+	(wire
+		(pts
 			(xy 208.28 123.19) (xy 218.44 123.19)
 		)
 		(stroke
@@ -4791,6 +5171,16 @@
 			(type default)
 		)
 		(uuid "0dd1294c-49fe-4afe-96e4-44210c8e7564")
+	)
+	(wire
+		(pts
+			(xy 86.36 129.54) (xy 86.36 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dfdb4f5-e0a8-4da0-8f58-6c961a5c67a3")
 	)
 	(wire
 		(pts
@@ -4884,6 +5274,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 237.49) (xy 85.09 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21e38cec-98e2-4213-ae50-390946c0a176")
+	)
+	(wire
+		(pts
 			(xy 234.95 162.56) (xy 234.95 163.83)
 		)
 		(stroke
@@ -4891,16 +5291,6 @@
 			(type default)
 		)
 		(uuid "21ebdd46-2774-421a-be34-d3dc19e58862")
-	)
-	(wire
-		(pts
-			(xy 205.74 80.01) (xy 205.74 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "224f1739-6da4-4729-8f11-f24f230bbebe")
 	)
 	(wire
 		(pts
@@ -4931,6 +5321,16 @@
 			(type default)
 		)
 		(uuid "266021ab-6fd6-4042-8d9c-7c79116675d1")
+	)
+	(wire
+		(pts
+			(xy 86.36 132.08) (xy 91.44 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "289836d4-2c7a-44eb-99a6-0e463a820886")
 	)
 	(wire
 		(pts
@@ -4974,6 +5374,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 74.93) (xy 212.09 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c17393b-4770-4c66-b60e-eedb2e59ef46")
+	)
+	(wire
+		(pts
 			(xy 295.91 82.55) (xy 295.91 83.82)
 		)
 		(stroke
@@ -5001,6 +5411,16 @@
 			(type default)
 		)
 		(uuid "2e3b73a3-155f-4b91-a651-3baa0a076474")
+	)
+	(wire
+		(pts
+			(xy 175.26 74.93) (xy 175.26 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fbd11d4-3e7e-4760-adc4-b81ad78ed0b2")
 	)
 	(wire
 		(pts
@@ -5051,6 +5471,16 @@
 			(type default)
 		)
 		(uuid "36fba712-0f7c-496c-a10a-ee141a8f41ad")
+	)
+	(wire
+		(pts
+			(xy 85.09 229.87) (xy 85.09 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38830a66-5f05-4a72-9d90-408c67db042b")
 	)
 	(wire
 		(pts
@@ -5134,7 +5564,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 86.36) (xy 205.74 88.9)
+			(xy 205.74 87.63) (xy 205.74 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5151,6 +5581,16 @@
 			(type default)
 		)
 		(uuid "473d44b1-e1af-4d00-a157-8044551f6ed1")
+	)
+	(wire
+		(pts
+			(xy 212.09 77.47) (xy 219.71 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4814fc9c-1a87-4217-96a3-c4ff4b41b518")
 	)
 	(wire
 		(pts
@@ -5181,6 +5621,16 @@
 			(type default)
 		)
 		(uuid "4ed83762-d879-4d20-beff-a127460e8337")
+	)
+	(wire
+		(pts
+			(xy 323.85 114.3) (xy 327.66 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5122e5c2-64b8-42d7-8dac-18524179090f")
 	)
 	(wire
 		(pts
@@ -5264,13 +5714,33 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 77.47) (xy 146.05 77.47)
+			(xy 135.89 77.47) (xy 142.24 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5dca1a81-ec17-4931-9c7e-e915f26076cf")
+	)
+	(wire
+		(pts
+			(xy 109.22 229.87) (xy 109.22 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "638482b8-3193-4dae-972d-08eb4a2d53fa")
+	)
+	(wire
+		(pts
+			(xy 35.56 237.49) (xy 60.96 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "647e4a21-f3f0-4f27-b63e-c506d1d72da0")
 	)
 	(wire
 		(pts
@@ -5291,16 +5761,6 @@
 			(type default)
 		)
 		(uuid "64bf214d-0905-49bb-b3ab-c5802b49cc1a")
-	)
-	(wire
-		(pts
-			(xy 295.91 91.44) (xy 295.91 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "655efcbb-849e-42c0-a42d-dc8a68358616")
 	)
 	(wire
 		(pts
@@ -5394,6 +5854,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 77.47) (xy 146.05 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e731fce-0078-470f-b010-76fa28ec32ec")
+	)
+	(wire
+		(pts
 			(xy 240.03 177.8) (xy 240.03 170.18)
 		)
 		(stroke
@@ -5454,16 +5924,6 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 114.3) (xy 327.66 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "789fbc0b-0c17-44fe-b397-bcb6df5a4d21")
-	)
-	(wire
-		(pts
 			(xy 342.9 82.55) (xy 345.44 82.55)
 		)
 		(stroke
@@ -5471,6 +5931,16 @@
 			(type default)
 		)
 		(uuid "7f1d4ce9-8c3f-44d9-991a-719d760ce42d")
+	)
+	(wire
+		(pts
+			(xy 86.36 132.08) (xy 86.36 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80b5e8fc-fb7e-458e-a229-1615790c61e1")
 	)
 	(wire
 		(pts
@@ -5634,16 +6104,6 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 187.96) (xy 284.48 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94a7aa52-0d07-45d7-9ee6-b28a0e73b3db")
-	)
-	(wire
-		(pts
 			(xy 337.82 133.35) (xy 337.82 135.89)
 		)
 		(stroke
@@ -5714,16 +6174,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 77.47) (xy 219.71 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a04afbf7-eb2a-427e-b1af-370b99b66dae")
-	)
-	(wire
-		(pts
 			(xy 201.93 80.01) (xy 205.74 80.01)
 		)
 		(stroke
@@ -5741,6 +6191,16 @@
 			(type default)
 		)
 		(uuid "a2f12716-410b-4b83-873b-ba83fddb25d7")
+	)
+	(wire
+		(pts
+			(xy 284.48 187.96) (xy 284.48 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a452d359-e2f4-4e8a-9e32-dfbd509be262")
 	)
 	(wire
 		(pts
@@ -5771,16 +6231,6 @@
 			(type default)
 		)
 		(uuid "a7f477d5-a6ac-4614-9b2b-3c53034eab5d")
-	)
-	(wire
-		(pts
-			(xy 86.36 129.54) (xy 86.36 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab527723-e7fc-4863-bb16-52dd13f17dd0")
 	)
 	(wire
 		(pts
@@ -5864,6 +6314,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 237.49) (xy 109.22 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b614d677-4a51-470e-956a-58bbdb2e27cd")
+	)
+	(wire
+		(pts
 			(xy 78.74 129.54) (xy 78.74 134.62)
 		)
 		(stroke
@@ -5881,6 +6341,16 @@
 			(type default)
 		)
 		(uuid "b703fb80-2729-433b-8f7a-110de636c3e0")
+	)
+	(wire
+		(pts
+			(xy 142.24 74.93) (xy 142.24 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2baa460-4247-4dff-bb88-1dce7e79d81b")
 	)
 	(wire
 		(pts
@@ -5991,6 +6461,16 @@
 			(type default)
 		)
 		(uuid "ce6cce2f-8664-4448-b670-6dbba554adb5")
+	)
+	(wire
+		(pts
+			(xy 35.56 237.49) (xy 35.56 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d166987b-5bef-49a5-b79b-d9849cf2f648")
 	)
 	(wire
 		(pts
@@ -6194,6 +6674,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 77.47) (xy 212.09 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0f22f58-3b69-43e5-91a1-818bfe49af6b")
+	)
+	(wire
+		(pts
 			(xy 128.27 133.35) (xy 128.27 134.62)
 		)
 		(stroke
@@ -6224,6 +6714,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 229.87) (xy 60.96 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb7c41c1-545b-448f-9429-0d4932fcbe05")
+	)
+	(wire
+		(pts
 			(xy 193.04 182.88) (xy 193.04 198.12)
 		)
 		(stroke
@@ -6251,6 +6751,16 @@
 			(type default)
 		)
 		(uuid "f1701609-ce48-499d-8ccc-729d9574a7c1")
+	)
+	(wire
+		(pts
+			(xy 295.91 91.44) (xy 295.91 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f239fa25-4c7c-4600-a3cd-96e63e77c1ad")
 	)
 	(wire
 		(pts
@@ -6748,6 +7258,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 109.22 227.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1131e697-ae3f-421e-8212-1c4cb65552b4")
+		(property "Reference" "MH3"
+			(at 111.76 224.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 111.76 227.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 109.22 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 109.22 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0bdfe2c5-f034-4d9e-a2eb-745ec064aafd")
+		)
+		(instances
+			(project "TI MSPM0"
+				(path "/afd132a1-7bf8-491c-b5ec-f7b4c9d34512"
+					(reference "MH3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 132.08 120.65 0)
 		(unit 1)
@@ -6759,7 +7348,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14f55be0-be6a-471a-aae4-4e9729e88213")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 134.62 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6823,7 +7412,7 @@
 		(instances
 			(project "TI MSPM0"
 				(path "/afd132a1-7bf8-491c-b5ec-f7b4c9d34512"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6902,6 +7491,85 @@
 			(project "TI MSPM0"
 				(path "/afd132a1-7bf8-491c-b5ec-f7b4c9d34512"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 284.48 193.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19d8fa11-6f89-4a47-b7d6-2982df1cb738")
+		(property "Reference" "#PWR034"
+			(at 284.48 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 284.48 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 284.48 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 284.48 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0515da98-1e59-4ac4-91c1-4a5c75a0c55d")
+		)
+		(instances
+			(project "TI MSPM0"
+				(path "/afd132a1-7bf8-491c-b5ec-f7b4c9d34512"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -8165,6 +8833,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 35.56 240.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46b4cc66-6299-475b-bee0-34c3e5f9a15f")
+		(property "Reference" "#PWR01"
+			(at 35.56 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 245.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "295844f7-2219-496e-aff3-062254131fa8")
+		)
+		(instances
+			(project "TI MSPM0"
+				(path "/afd132a1-7bf8-491c-b5ec-f7b4c9d34512"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 160.02 82.55 0)
 		(unit 1)
@@ -8555,6 +9301,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 177.8 227.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5309f619-7b0e-45c1-871c-4a4814fab2de")
+		(property "Reference" "FID2"
+			(at 180.34 226.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 180.34 228.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 177.8 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "TI MSPM0"
+				(path "/afd132a1-7bf8-491c-b5ec-f7b4c9d34512"
+					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 219.71 82.55 0)
 		(unit 1)
@@ -8884,41 +9706,41 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 284.48 194.31 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 85.09 227.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5ee97a61-7920-435b-8c0b-459d39e8b273")
-		(property "Reference" "#PWR01"
-			(at 284.48 200.66 0)
-			(hide yes)
+		(uuid "5beb9a67-8f1a-45f4-b3b2-ac771dce1edc")
+		(property "Reference" "MH3"
+			(at 87.63 224.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 284.48 199.39 0)
-			(hide yes)
+		(property "Value" "MountingHole_Pad"
+			(at 87.63 227.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 284.48 194.31 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 85.09 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8929,7 +9751,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 284.48 194.31 0)
+			(at 85.09 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8939,8 +9761,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 284.48 194.31 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 85.09 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8951,12 +9773,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0697e6b1-6f29-4b05-b3b3-bbda788b571c")
+			(uuid "66219716-3156-4073-bb3e-555cb9b58e6a")
 		)
 		(instances
 			(project "TI MSPM0"
 				(path "/afd132a1-7bf8-491c-b5ec-f7b4c9d34512"
-					(reference "#PWR01")
+					(reference "MH3")
 					(unit 1)
 				)
 			)
@@ -9117,6 +9939,163 @@
 			(project "TI MSPM0"
 				(path "/afd132a1-7bf8-491c-b5ec-f7b4c9d34512"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 35.56 227.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66e81679-7afe-48a8-8c0a-ef5eec069ca5")
+		(property "Reference" "MH1"
+			(at 38.1 224.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 38.1 227.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 35.56 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 35.56 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e17abc37-3170-4b0b-a625-9c7ae039f69c")
+		)
+		(instances
+			(project "TI MSPM0"
+				(path "/afd132a1-7bf8-491c-b5ec-f7b4c9d34512"
+					(reference "MH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 212.09 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69cc5909-8189-46b3-8f03-3637a081287c")
+		(property "Reference" "#FLG05"
+			(at 212.09 73.025 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 212.09 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 212.09 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7ca9333a-70e0-40c7-bb88-399647bcfa2e")
+		)
+		(instances
+			(project "TI MSPM0"
+				(path "/afd132a1-7bf8-491c-b5ec-f7b4c9d34512"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -9964,6 +10943,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 191.77 227.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e75682d-26b1-4cfd-8924-b1c789dabd5f")
+		(property "Reference" "FID3"
+			(at 194.31 226.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 194.31 228.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 191.77 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "TI MSPM0"
+				(path "/afd132a1-7bf8-491c-b5ec-f7b4c9d34512"
+					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 78.74 134.62 0)
 		(unit 1)
@@ -10163,6 +11218,85 @@
 			(project "TI MSPM0"
 				(path "/afd132a1-7bf8-491c-b5ec-f7b4c9d34512"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 91.44 132.08 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ad52538-5df9-48b6-acef-9b5e25554a9d")
+		(property "Reference" "#FLG04"
+			(at 93.345 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 95.25 132.0799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 91.44 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "91dacbee-2459-4261-b218-7576a86461b3")
+		)
+		(instances
+			(project "TI MSPM0"
+				(path "/afd132a1-7bf8-491c-b5ec-f7b4c9d34512"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -11169,6 +12303,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 163.83 227.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adb2daee-82ee-4c03-b460-7360e507ffb5")
+		(property "Reference" "FID1"
+			(at 166.37 226.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 166.37 228.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 163.83 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "TI MSPM0"
+				(path "/afd132a1-7bf8-491c-b5ec-f7b4c9d34512"
+					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 243.84 114.3 90)
 		(unit 1)
@@ -11368,6 +12578,85 @@
 			(project "TI MSPM0"
 				(path "/afd132a1-7bf8-491c-b5ec-f7b4c9d34512"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 60.96 227.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba1debc0-b6fd-440f-9006-0020a4dda7c5")
+		(property "Reference" "MH2"
+			(at 63.5 224.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 63.5 227.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 60.96 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 60.96 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3883d2fd-4bf9-4dea-b1e8-0b99348a77b1")
+		)
+		(instances
+			(project "TI MSPM0"
+				(path "/afd132a1-7bf8-491c-b5ec-f7b4c9d34512"
+					(reference "MH2")
 					(unit 1)
 				)
 			)
@@ -12196,6 +13485,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 175.26 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e40a4ded-6a5c-4ebc-ba18-55791522a347")
+		(property "Reference" "#FLG03"
+			(at 175.26 73.025 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 175.26 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 175.26 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5748321-651b-41ea-88b9-d43efbdc6065")
+		)
+		(instances
+			(project "TI MSPM0"
+				(path "/afd132a1-7bf8-491c-b5ec-f7b4c9d34512"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 170.18 109.22 0)
 		(unit 1)
@@ -12275,7 +13642,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 205.74 82.55 0)
+		(at 205.74 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12286,7 +13653,7 @@
 		(fields_autoplaced yes)
 		(uuid "ece9aaf0-6a8c-4cf3-b4f6-6de80a11375b")
 		(property "Reference" "C4"
-			(at 209.55 81.2799 0)
+			(at 209.55 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12297,7 +13664,7 @@
 			)
 		)
 		(property "Value" "470n"
-			(at 209.55 83.8199 0)
+			(at 209.55 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12308,7 +13675,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 206.7052 86.36 0)
+			(at 206.7052 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12319,7 +13686,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 82.55 0)
+			(at 205.74 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12330,7 +13697,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 205.74 82.55 0)
+			(at 205.74 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12341,7 +13708,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 205.74 82.55 0)
+			(at 205.74 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12352,7 +13719,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 205.74 82.55 0)
+			(at 205.74 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12363,7 +13730,7 @@
 			)
 		)
 		(property "Distributor Link 1" ""
-			(at 205.74 82.55 0)
+			(at 205.74 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12374,7 +13741,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 205.74 82.55 0)
+			(at 205.74 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12555,6 +13922,84 @@
 			(project "TI MSPM0"
 				(path "/afd132a1-7bf8-491c-b5ec-f7b4c9d34512"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 142.24 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4152c50-0116-46b7-b813-cd44d2a8ba9d")
+		(property "Reference" "#FLG02"
+			(at 142.24 73.025 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 142.24 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 142.24 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "634774ce-e70c-499f-8c3a-5512b84dcbd9")
+		)
+		(instances
+			(project "TI MSPM0"
+				(path "/afd132a1-7bf8-491c-b5ec-f7b4c9d34512"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
