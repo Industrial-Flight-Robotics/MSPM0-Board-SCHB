@@ -6842,7 +6842,7 @@
 		)
 		(uuid "19d3bf82-a0b6-4d9b-8ee0-dea513670394")
 	)
-	(label "USBD -"
+	(label "USBD +"
 		(at 176.53 130.81 0)
 		(effects
 			(font
@@ -6982,7 +6982,7 @@
 		)
 		(uuid "c57679d3-e83e-4000-91dd-5009ea87e964")
 	)
-	(label "USBD +"
+	(label "USBD -"
 		(at 176.53 133.35 0)
 		(effects
 			(font
@@ -7269,7 +7269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1131e697-ae3f-421e-8212-1c4cb65552b4")
-		(property "Reference" "MH3"
+		(property "Reference" "MH4"
 			(at 111.76 224.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7330,7 +7330,7 @@
 		(instances
 			(project "TI MSPM0"
 				(path "/afd132a1-7bf8-491c-b5ec-f7b4c9d34512"
-					(reference "MH3")
+					(reference "MH4")
 					(unit 1)
 				)
 			)
@@ -9334,7 +9334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
 			(at 177.8 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -10976,7 +10976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
 			(at 191.77 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -12336,7 +12336,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
 			(at 163.83 227.33 0)
 			(hide yes)
 			(show_name no)
