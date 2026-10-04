@@ -541,10 +541,30 @@
       {
         "bus_width": 12,
         "line_style": 0,
+        "name": "HFX",
+        "pcb_color": "rgb(237, 255, 189)",
+        "priority": 0,
+        "schematic_color": "rgb(237, 255, 189)",
+        "tuning_profile": "",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
         "name": "I2C",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgb(0, 255, 0)",
+        "pcb_color": "rgb(194, 194, 0)",
+        "priority": 4,
+        "schematic_color": "rgb(194, 194, 0)",
+        "tuning_profile": "",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "PWR",
+        "pcb_color": "rgb(255, 0, 0)",
+        "priority": 1,
+        "schematic_color": "rgb(255, 0, 0)",
         "tuning_profile": "",
         "wire_width": 6
       },
@@ -552,9 +572,9 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "SW",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgb(0, 255, 255)",
+        "pcb_color": "rgb(132, 132, 132)",
+        "priority": 3,
+        "schematic_color": "rgb(132, 132, 132)",
         "tuning_profile": "",
         "wire_width": 6
       },
@@ -562,8 +582,8 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "UART",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "pcb_color": "rgb(0, 0, 255)",
+        "priority": 2,
         "schematic_color": "rgb(0, 0, 255)",
         "tuning_profile": "",
         "wire_width": 6
@@ -572,9 +592,9 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgb(255, 0, 0)",
+        "pcb_color": "rgb(0, 255, 0)",
+        "priority": 5,
+        "schematic_color": "rgb(0, 255, 0)",
         "tuning_profile": "",
         "wire_width": 6
       }
@@ -586,10 +606,6 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "USB",
-        "pattern": "/USB*"
-      },
-      {
         "netclass": "I2C",
         "pattern": "/I2C*"
       },
@@ -600,6 +616,34 @@
       {
         "netclass": "UART",
         "pattern": "/UART*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB*"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "+V*"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "+1V*"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "/V*"
+      },
+      {
+        "netclass": "Default",
+        "pattern": ""
+      },
+      {
+        "netclass": "HFX",
+        "pattern": "/H*"
       }
     ]
   },
